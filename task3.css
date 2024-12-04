@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+/* code below is the change of background */
+ body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://www.rd.com/wp-content/uploads/2019/10/tic-tac-toe-scaled.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    font-family: Arial, sans-serif; /* Keep font styling intact */
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background-image: url('task3wb.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the board */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+    border: 2px solid #000;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.grid div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 0px;
+    font-size: 1.5rem;
+    color:#fff;
+    text-align:center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.container {
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+h1 {
+    color: #fff; /* Change to any color you like */
+    font-size: 2.5rem; /* Adjust the size if needed */
+    text-align: center; /* Center-align the text */
+    margin: 20px 0; /* Add some spacing */
+    font-family: 'Arial', sans-serif; /* Ensure a readable font */
+}
+
